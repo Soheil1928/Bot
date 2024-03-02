@@ -5,7 +5,7 @@ bot = telebot.TeleBot(TOKEN)
 
 
 def send_data_to_server(data):
-    url = 'https://django-bot.darkube.app/information/'
+    url = 'https://doneshkar-bot.darkube.app/information/'
     res = requests.post(url, data=data)
     print(res.status_code)
 
